@@ -1,0 +1,7 @@
+[project]
+name = "h3c-cli-mcp"
+version = "1.0.0"
+dependencies = ["mcp", "telnetlib3"]
+
+[project.scripts]
+h3c-cli-mcp = "h3c_cli_mcp.server:main"
